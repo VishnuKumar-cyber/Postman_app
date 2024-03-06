@@ -9,7 +9,7 @@ This project is the Authentication for dealsray Company.
 Output Screens:
 
 
-![out1](https://github.com/VishnuKumar-cyber/Postman_app/Output/out1/jpg)=250x250
+![out1](https://github.com/VishnuKumar-cyber/Postman_app/Output/out1/jpg =250x250)
 
 ![out2](https://github.com/VishnuKumar-cyber/Postman_app/assets/77339616/15a3a978-af85-4437-9dcc-912368a86b00)
 
