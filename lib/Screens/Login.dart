@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:postman_app/Screens/Home.dart';
 import 'package:postman_app/Screens/OTP.dart';
 
 class Login extends StatefulWidget {
@@ -14,7 +13,7 @@ class _LoginState extends State<Login> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        physics: ScrollPhysics(parent: NeverScrollableScrollPhysics()),
+        physics: const ScrollPhysics(parent: NeverScrollableScrollPhysics()),
         child: Stack(
           children: [
             Container(
@@ -78,7 +77,7 @@ class _LoginState extends State<Login> {
                           const SizedBox(
                             height: 30.0,
                           ),
-                          Text(
+                          const Text(
                             'Phone',
                             style: TextStyle(
                                 fontFamily: 'CopperPlate Gothic',
@@ -88,10 +87,10 @@ class _LoginState extends State<Login> {
                           const SizedBox(
                             height: 20,
                           ),
-                          TextField(
+                          const TextField(
                             decoration: InputDecoration(
                               hintText: 'Enter Phone Number',
-                              prefixIcon: const Icon(
+                              prefixIcon: Icon(
                                 Icons.email_outlined,
                                 color: Colors.black,
                               ),
@@ -138,18 +137,11 @@ class _LoginState extends State<Login> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text(
+                      const Text(
                         "Sign in with  ",
                       ),
                       TextButton(
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: ((context) => const OTP()),
-                            ),
-                          );
-                        },
+                        onPressed: () {},
                         child: const Text(
                           "Email",
                           style: TextStyle(
